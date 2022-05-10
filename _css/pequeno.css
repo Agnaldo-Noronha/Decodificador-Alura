@@ -1,0 +1,131 @@
+/* Media Query 375 x 933, feito com Responsively */
+
+@media (max-width: 375px){  
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vh 40vh 10vh 40vh;
+    }
+
+    header {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    main {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding-left: 50px;
+    }
+    
+    aside {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    
+    footer {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+   
+    }
+
+    .imginicio{
+        display: none;
+    }
+
+    .btn{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        transform: translate(-10px, 10px)
+    }
+
+    .crip{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 280px;
+        height: 50px;
+    }
+
+    .descrip{
+        width: 280px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(45px, 10px)
+
+    }
+
+    #textinput{
+        width: 100%;
+        transform: translate(-25px, 0px)
+    }
+
+    aside{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        transform: translate(10px, 50px)      
+    }
+
+    #textoutput{
+        transform: translate(40px, -15px)
+    }
+
+    #copiar {
+        width: 250px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(30px, -35px)
+    }
+
+    .informacoes{
+        transform: translate(-40px, 280px)
+    }
+
+    header {
+        width: 100%;
+    }
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    .aviso{
+        transform: translate(0px, 0px)
+    }
+
+    h2{
+        transform: translate(0px, -80px)
+    }  
+
+    h4 {
+        transform: translate(0px, -60px)
+    }
+    
+    #outputArea {
+        width: 90%;
+        transform: translate(9px, -80px)
+    }
+
+    #outputInicial{
+        width: 90%;
+        transform: translate(9px, -80px)
+    }
+
+}

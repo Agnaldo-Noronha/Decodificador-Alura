@@ -1,0 +1,147 @@
+/* Media Query 768 x 1174, feito com Responsively */
+
+@media (max-width: 768px) and (min-width: 500px){
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vh 40vh 10vh 40vh;
+    }
+
+    header {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    main {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        padding-left: 50px;
+    }
+    
+    aside {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    
+    footer {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+   
+    }
+
+    .crip{
+        background-color: #0A3871;
+        border-radius: 24px;
+        padding: 15px;
+        margin-left: 45px;
+        width: 300px;
+        height: 67px;
+        left: 0px;
+        top: 0px;
+        color:white;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+    
+    }
+    
+    .descrip{
+        background-color: #D8DFE8;
+        padding: 24px;
+        width: 300px;
+        height: 67px;
+        left: 352px;
+        top: 0px;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0A3871;
+    }
+    .informacoes{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        padding-left: 2%;
+        color: #0A3871;
+        transform: translate(-15px, 380px)
+    }
+
+    .imginicio{
+        display: none;
+    }
+
+    #outputInicial {
+        
+        border-radius: 24px;
+        width: 90%;
+        height: 60%;
+        transform: translate(35px, -70px)                
+    }
+    
+    h2 {
+        
+        display: block;
+        width: 70%;
+        transform: translate(100px, -60px)       
+    }
+
+    h4 {
+        display: block;
+        width: 70%;
+        transform: translate(100px, -60px)
+    }
+
+    #outputArea{
+
+        border-radius: 24px;
+        width: 90%;
+        height: 80%;
+        transform: translate(35px, -80px)
+    }
+
+    #textoutput {
+        width: 95%;
+        height: 95%;
+        margin-left: -33px;
+        margin-top: -50px;
+    }
+
+    #copiar {
+            
+        width: 500px;
+        height: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(100px, 0px)
+    }
+
+    #textinput::placeholder{
+        font-size: 22px;
+    }   
+    
+    .icone{
+        margin-top: 4%;
+        margin-left: 1%;    
+    }
+
+    .aviso{
+        transform: translate(-45px, 0px)
+    }
+}

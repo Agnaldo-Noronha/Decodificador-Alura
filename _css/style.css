@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+/* Estilo inicial e CSS Grid, tamanho padrão da minha tela 27'*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 60vh 20vh;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+main {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-left: 200px;
+}
+
+aside {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.icone{
+    margin-top: 1%;
+    margin-left: 2%;    
+}
+
+/* Estilizando a área de texto */
+
+#textinput{
+    width: 85%;
+    height: 95%;
+    resize: none;
+    box-sizing: border-box;
+    border-color: #E5E5E5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0A3871;
+
+}
+
+#textinput::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+#textoutput{
+    width: 85%;
+    height: 85%;
+    background-color: rgba(255, 255, 255, 1);
+    resize: none;
+    box-sizing: border-box;
+    border-color: rgba(255, 255, 255, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0A3871;
+    transform: translate(8%,-4.1%)
+    
+}
+
+#outputArea{
+    padding-top: 100px;
+    margin-top: 95px;
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 1);    
+}
+
+#outputInicial{
+    padding-top: 100px;
+    margin-top: 95px;
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 1); 
+}
+
+.imginicio{
+    background-color: rgba(255, 255, 255, 1);
+    transform: translate(11%,-4.1%);
+    width: 80%;
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #343A40;
+    text-align: center;
+    
+}
+
+h4 {
+    background-color: rgba(255, 255, 255, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #495057;
+    text-align: center;
+    text-indent: 2px;
+}
+
+/* Estilizando os botões */
+
+.crip{
+    background-color: #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    margin-left: 13%;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    color:white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.descrip{
+    background-color: #D8DFE8;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0A3871;
+}
+
+#copiar{
+    background-color: white;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0A3871;
+    transform: translate(7%,5%)
+}
+
+botao.ativo{
+    background-color: #0A3871;
+    color:white;
+}
+
+/* Estilizando os textos do footer */
+
+.aviso{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 13%;
+}
+
+.informacoes{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 25%;
+    color: #0A3871;
+}
+
+a {
+	color: #0A3871;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+

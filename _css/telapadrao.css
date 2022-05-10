@@ -1,0 +1,10 @@
+/* Media Query 1440 x 1024, feito com Responsively */
+
+@media (max-width: 1440px) and (min-width: 1000px){
+    
+    #copiar{
+        width: 250px;
+        transform: translate(19px, 0px);
+    }
+
+}
